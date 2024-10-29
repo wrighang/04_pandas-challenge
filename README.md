@@ -1,5 +1,77 @@
 # 04_pandas-challenge: PyCitySchools
 
+Background
+You are the new Chief Data Scientist for your city's school district. In this capacity, you'll be helping the school board and mayor make strategic decisions regarding future school budgets and priorities.
+
+As a first task, you've been asked to analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your task is to aggregate the data to showcase obvious trends in school performance.
+
+## Requirements
+
+## District Summary
+- Calculate the total number of unique schools
+- Calculate the total number of students
+- Calculate the total budget
+- Calculate the average math score
+- Calculate the average reading score
+- Calculate the percentage of students who passed math
+- Calculate the percentage of students who passed reading
+- Calculate the percentage of students who passed both math and reading
+- Create a new DataFrame for the above calculations called `district_summary`
+
+## School Summary
+- Select the school type
+- Calculate the total student count
+- Calculate the per capita spending
+- Calculate the average test scores
+- Calculate the number of schools with math scores of 70 or higher
+- Calculate the number of schools with reading scores of 70 or higher
+- Calculate the schools that passed both math and reading with scores of 70 or higher
+- Calculate the passing rates
+- Create a new DataFrame for the above calculations called `per_school_summary`
+
+## Highest-Performing Schools by Percentage of Overall Passing
+- Sort the schools by % Overall Passing in descending order
+- Save the results to a DataFrame called `top_schools`
+- Display the first 5 rows
+
+## Lowest-Performing Schools by Percentage of Overall Passing
+- Sort the schools by % Overall Passing in ascending order
+- Save the results to a DataFrame called `bottom_schools`
+- Display the first 5 rows
+
+## Math Scores by Grade
+- Separate the data by grade
+- Group by "school_name" and calculate the mean
+- Select only the `math_score`
+- Combine the scores into a single DataFrame called `math_scores_by_grade`
+
+## Reading Scores by Grade
+- Separate the data by grade
+- Group by "school_name" and calculate the mean
+- Select only the `reading_score`
+- Combine the scores into a single DataFrame called `reading_scores_by_grade`
+
+## Scores by School Spending
+- Use `pd.cut` to bin data by the spending ranges
+- Calculate the averages for each bin
+- Create `spending_summary` DataFrame using the binned and averaged spending data
+
+## Scores by School Size
+- Use `pd.cut` to bin data by school size
+- Calculate the averages for each bin
+- Create `size_summary` DataFrame using the binned and averaged size data
+
+## Scores by School Type
+- Group the `per_school_summary` DataFrame by "School Type" and calculate the averages
+- Select the new column data
+- Create a new DataFrame called `type_summary` using the new column data
+
+## Written Report
+- Present a cohesive analysis summarizing the findings
+- Draw two correct conclusions or comparisons from the calculations
+
+  -----------------------------------
+
 
 Overall, this challenge involved me referencing previous activities, if needed, to find examples of the methods I planned to use. After completing the challenge, I created a separate copy of my work for two reasons: a) to ensure my final results were saved and secure and b) to experiment with other methods we’ve learned in class that weren’t part of the original assignment. Additionally, I had a 3-hour study group on Sunday, October 12th, which only Amy Hanks attended. During the 3 hour session, I helped walk her through the challenge, which reinforced my own understanding by allowing me to talk through what I had learned. While guiding her, I also discovered an error in my code related to the per_school_budget, which I’ve noted below.
 
