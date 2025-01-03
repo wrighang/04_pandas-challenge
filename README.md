@@ -1,6 +1,6 @@
 # 04_pandas-challenge: PyCitySchools
 
-[PyCitySchools.ipynb Completed Assignment](https://github.com/wrighang/04_pandas-challenge/blob/main/PyCitySchools/PyCitySchools.ipynb)
+[PyCitySchools.ipynb](https://github.com/wrighang/04_pandas-challenge/blob/main/PyCitySchools/PyCitySchools.ipynb)
 
 ## Background
 You are the new Chief Data Scientist for your city's school district. In this capacity, you'll be helping the school board and mayor make strategic decisions regarding future school budgets and priorities.
